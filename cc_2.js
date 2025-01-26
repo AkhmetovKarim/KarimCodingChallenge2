@@ -44,3 +44,20 @@ employee.position = "Vice President";
 
 //Step 4: Log updated object
 console.log(employee);
+
+
+//Task 4 - Customer Database
+//Step 1: Declare an array with at least three objects
+let customers = [
+    { name: "Ronaldo", email: "ronaldo@gmail.com", purchaseAmount: 1000 },
+    { name: "Messi", email: "messi@gmail.com", purchaseAmount: 1500 },
+    { name: "Neymar", email: "neymar@gmail.com", purchaseAmount: 2000}
+];
+
+//Step 2: Add a new customer to array
+customers.push({ name: "Lewandowski", email: "lewandowski@gmail.com", purchaseAmount: 2500 });
+
+//Step 3: Log entire customer list
+console.log(customers);
+
+    

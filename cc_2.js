@@ -60,4 +60,19 @@ customers.push({ name: "Lewandowski", email: "lewandowski@gmail.com", purchaseAm
 //Step 3: Log entire customer list
 console.log(customers);
 
+
+//Task 5 - Order Processing System
+//Step 1: Declare an object with properties
+let order = {
+    orderID: 777,
+    customerName: "Cristiano Ronaldo",
+    amount: 20,
     
+//Step 2: Add a method to calculate tax    
+    calculateTax: function () { 
+        return this.amount * 0.1;
+    }
+};
+//Step 3: Log order details and tax amount
+console.log(order);
+console.log(order.calculateTax());
